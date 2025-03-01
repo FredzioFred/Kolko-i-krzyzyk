@@ -99,7 +99,7 @@ void pobieranieMiejsca(int& kolumna, int& rzad)
         {
             break;
         } else {
-            std::cout << "Podaj kolumne od 1 do 3";
+            std::cout << "Podaj kolumne od 1 do 3 ";
         }
     }
     std::cout << "Podaj rzad(1, 2, 3) : ";
@@ -110,7 +110,7 @@ void pobieranieMiejsca(int& kolumna, int& rzad)
         {
             break;
         } else {
-            std::cout << "Podaj rzad od 1 do 3";
+            std::cout << "Podaj rzad od 1 do 3 ";
         }
     }
     kolumna = kolumna*3;
